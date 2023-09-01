@@ -17,10 +17,10 @@ public class Main {
         System.out.println("Initial Account Information:");
         System.out.println("Account Number: " + account.getAccountNumber());
         System.out.println("Customer Name: " + account.getCustomerName());
-        System.out.println("Account Balance: " + account.getAccountBalance());
         System.out.println("Email: " + account.getEmail());
         System.out.println("Phone Number: " + account.getPhoneNumber());
-
+        System.out.println("\nAccount Balance: " + account.getAccountBalance());
+        
         account.deposit(500.0);
         account.withdraw(200.0);
         account.withdraw(800.0);
